@@ -95,3 +95,5 @@ siteMenu.add_command(label="Test", command=test)
 bodybox = tk.Text(root, width=90, height=25)
 bodybox.grid(column=0, row=1, columnspan=2)
 bodybox.insert(tk.END, "<h1>My website</h1>\n<h2>Code here!</h2>")
+
+root.mainloop()
